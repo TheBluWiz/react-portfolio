@@ -1,4 +1,4 @@
-
+import Resume from "../assets/Resume-JameyWicklund.pdf"
 
 export default function NavBar({currentPage, handlePageChange}) {
   return (
@@ -7,7 +7,7 @@ export default function NavBar({currentPage, handlePageChange}) {
         <a href="#aboutme" onClick={() => handlePageChange('AboutMe')} className="text-green-200">About Me</a>
         <a href="#contact" onClick={() => handlePageChange('Contact')} className="text-green-200">Contact</a>
         <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className="text-green-200">Portfolio</a>
-        <a href="../assets/Resume-JameyWicklund.pdf" className="text-green-200" download>Resume</a>
+        <a href={Resume} className="text-green-200" download>Resume</a>
       </div>
     </div >
   )
