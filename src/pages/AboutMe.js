@@ -5,10 +5,10 @@ export default function AboutMe() {
     <>
       {/* <div className="grid grid-cols-2 mx-1"> */}
       <div className="float-left mr-3">
-        <img src={profilePic} alt="Jamey Wicklund" className="max-h-32 rounded-full pl-6 mt-3" />
-        <h2 className="text-2xl font-medium text-teal-600 pl-5">About Me</h2>
+        <img src={profilePic} alt="Jamey Wicklund" className="max-h-32 rounded-full pl-6 mt-3 mx-3" />
+        <h2 className="text-2xl font-medium text-teal-600 pl-5 mx-3">About Me</h2>
       </div>
-      <div className="mt-5 mx-5">
+      <div className="mt-5 mx-7">
         <p>Always curious, my time away from keyboard is spent reading science focused news articles, going on long
           walks
           with my husband and dog, or imagining what another world could be like with my DND group.<br /><br />
