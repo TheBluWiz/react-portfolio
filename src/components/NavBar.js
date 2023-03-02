@@ -7,19 +7,19 @@ export default function NavBar({ currentPage, handlePageChange }) {
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
-          className={currentPage === 'AboutMe' ? 'text-teal-300 font-semibold' : 'text-green-200'}>
+          className={currentPage === 'AboutMe' ? 'text-sky-300 font-semibold' : 'text-green-200'}>
           About Me
         </a>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'text-teal-300 font-semibold' : 'text-green-200'}>
+          className={currentPage === 'Contact' ? 'text-sky-300 font-semibold' : 'text-green-200'}>
           Contact
         </a>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'text-teal-300 font-semibold' : 'text-green-200'}>
+          className={currentPage === 'Portfolio' ? 'text-sky-300 font-semibold' : 'text-green-200'}>
           Portfolio
         </a>
         <a

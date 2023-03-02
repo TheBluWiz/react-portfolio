@@ -4,13 +4,13 @@ import Body from './components/Body.js';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
-  const handlePageChange = (page) => setCurrentPage(page);
+
 
   return (
-    <>
+    <div className='bg-slate-200 h-screen'>
     <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <Body currentPage={currentPage} />
-    </>
+    </div>
   );
 }
 

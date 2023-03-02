@@ -19,8 +19,7 @@ export default function Body({ currentPage }) {
 
   return (
     <main>
-      <div className="h-1 bg-green-600"></div>
-      {renderPage()}
+        {renderPage()}
     </main>
 
   )

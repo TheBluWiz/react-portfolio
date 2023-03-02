@@ -1,14 +1,16 @@
-import profilePic from "../assets/images/profilePic.jpeg";
+import profilePic from "../assets/images/theBluWiz-logo.png";
 import NavBar from "./NavBar"
 
-export default function Header({currentPage, setCurrentPage}) {
+export default function Header({ currentPage, setCurrentPage }) {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <header>
-      <img src={profilePic} alt="Jamey Wicklund" className="max-h-72 rounded-full pl-6 mt-3"/>
-      <h1 className="text-right mr-5 text-2xl font-medium text-teal-500">Jamey Wicklund</h1>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
+    <header className="bg-green-200">
+      <div className="flex justify-end  mr-1">
+        <h1 className="text-right text-2xl font-medium text-cyan-700 self-end justify-self-end">Jamey Wicklund</h1>
+        <img src={profilePic} alt="Jamey Wicklund" className="max-h-10" />
+      </div>
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   )
 }
