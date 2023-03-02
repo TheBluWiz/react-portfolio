@@ -13,6 +13,8 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
+    setErrorMessage(null)
+
     if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
@@ -25,16 +27,25 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    if (name === '') {
+      setErrorMessage('Name is required')
+      return
+    }
+
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
+    }
+
+    if (message === '') {
+      setErrorMessage('Please include a message')
+      return
     }
 
     setMessageSent('Message Sent')
     setName('');
     setEmail('');
     setMessage('');
-    setErrorMessage(null)
 
     setTimeout(() => {
       setMessageSent(null)
