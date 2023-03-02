@@ -1,9 +1,11 @@
+import Card from '../components/Card'
 import devQuizPic from '../assets/images/dev-quiz.png';
 import giphtionaryPic from '../assets/images/giphtionary.png';
 import mailMeSeedsPic from '../assets/images/mail-me-seeds.png';
 import noteTaker from '../assets/images/note-taker.png';
 import teamProfileGenerator from '../assets/images/team-profile-generator.png';
 import techSpotBlot from '../assets/images/tech-spot-blot.png';
+
 
 
 
@@ -53,17 +55,8 @@ export default function Contact() {
     }
   ]
 
-
-  return cardArray.map((site) => {
-    return (
-      <div className='card'>
-        <div className='image'>
-          <img src={site.image} alt={site.alt}/>
-        </div>
-        <div className="Buttons">
-
-        </div>
-      </div>
-    )
-  });
+  return (
+    <Card cardArray={cardArray}/>
+)
+  
 }

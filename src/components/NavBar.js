@@ -3,7 +3,7 @@ import Resume from "../assets/Resume-JameyWicklund.pdf"
 export default function NavBar({ currentPage, handlePageChange }) {
   return (
     <div className="bg-emerald-700 text-center">
-      <div className="grid gap-1 grid-cols-4 mx-0">
+      <div className="grid gap-1 grid-cols-4 mx-0 ">
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
