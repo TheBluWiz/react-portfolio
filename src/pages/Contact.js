@@ -43,7 +43,7 @@ export default function Contact() {
       return
     }
 
-    if (!validateEmail(email)) {
+    if (!validateEmail(email) && e.target.name === "email") {
       setErrorMessage('Email is invalid');
       return;
     }
