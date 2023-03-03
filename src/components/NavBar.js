@@ -1,4 +1,4 @@
-import Resume from "../assets/Resume-JameyWicklund.pdf"
+
 
 export default function NavBar({ currentPage, handlePageChange }) {
   return (
@@ -23,9 +23,9 @@ export default function NavBar({ currentPage, handlePageChange }) {
           Portfolio
         </a>
         <a
-          href={Resume}
-          className="text-green-200"
-          download>
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'text-sky-300 font-semibold' : 'text-green-200'}>
           Resume
         </a>
       </div>

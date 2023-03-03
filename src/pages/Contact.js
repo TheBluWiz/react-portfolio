@@ -24,6 +24,27 @@ export default function Contact() {
     }
   };
 
+  const onBlur = (e) => {
+    console.log(e)
+    let inputData = e.target.value;
+
+    if(!inputData) {
+      switch (e.target.name) {
+        case "name":
+          setErrorMessage(`Name is required`);
+          break;
+        case "email":
+          setErrorMessage(`Email is required`);
+          break;
+        case "message":
+          setErrorMessage(`Message is required`);
+          break;
+      }
+      return
+    }
+    setErrorMessage(null)
+  }  
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -63,7 +84,8 @@ export default function Contact() {
             name="name"
             placeholder="  Name"
             value={name}
-            onChange={handleInputChange}>
+            onChange={handleInputChange}
+            onBlur={onBlur}>
           </input>
           <input
             type="text"
@@ -71,7 +93,8 @@ export default function Contact() {
             name="email"
             placeholder="  Email"
             value={email}
-            onChange={handleInputChange}>
+            onChange={handleInputChange}
+            onBlur={onBlur}>
           </input>
           <textarea
             rows="4"
@@ -80,7 +103,8 @@ export default function Contact() {
             name="message"
             placeholder="  Your message here"
             value={message}
-            onChange={handleInputChange}>
+            onChange={handleInputChange}
+            onBlur={onBlur}>
           </textarea>
           {errorMessage && (
             <div>

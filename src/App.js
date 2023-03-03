@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Header from "./components/Header.js";
 import Body from './components/Body.js';
-import formJS from './assets/js/form.js'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
