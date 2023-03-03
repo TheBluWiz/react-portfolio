@@ -17,5 +17,42 @@ code {
 @tailwind utilities;
 
 @layer components {
-
+  /* .cardImage:hover {
+    opacity: 0.3;
+    z-index: 0;
+  }
+  .cardCode:hover+.cardImage {
+    opacity: 0.3;
+    z-index: 0;
+  } */
+  .cardImage {
+    z-index: 20;
+  }
+  .cardCode {
+    position: absolute;
+    z-index: 10;
+    display: grid;
+    gap: 0.25rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 75%;
+    place-items: center;
+  }
+  .cardImage:hover {
+    opacity: 0.3;
+    z-index: 0;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+  }
+  .cardCode:hover {
+    z-index: 50;
+  }
+  .cardCode:hover+.cardImage {
+    opacity: 0.3;
+    z-index: 0;
+  }
+  .title {
+    font-family: 'Neucha', cursive;
+    font-size: 36px;
+    color: rgb(13 148 136);
+  }
 }

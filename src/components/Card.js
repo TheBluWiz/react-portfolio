@@ -4,14 +4,13 @@ export default function Card({cardArray}) {
   return cardArray.map((site) => {
     return (
       <div className='grid place-items-center relative'>
-        <img src={site.image} alt={site.alt} className='z-20 hover:opacity-30 hover:z-0 ease-out duration-300' />
-        <div className='grid gap-1 grid-cols-2 mx-0 w-3/4 place-items-center absolute z-10 hover:z-40'>
+        <div className='cardCode'>
           <a
             href={site.deployed}
             target="_blank"
             className='w-1/2'>
             <h3
-              className='text-teal-600 title'>
+              className='title'>
               {site.title}
             </h3></a>
           <a
@@ -22,6 +21,7 @@ export default function Card({cardArray}) {
               src={gitHubLogo}
               className='' /></a>
         </div>
+        <img src={site.image} alt={site.alt} className='cardImage' />
       </div>
     )
   });
