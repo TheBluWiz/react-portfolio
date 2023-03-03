@@ -1,9 +1,14 @@
 import gitHubLogo from '../assets/images/github-logo.png';
 
-export default function Card({cardArray}) {
+export default function Card({ cardArray }) {
+  let index = 0
+  const counter = () => {
+    index++
+    return index
+  }
   return cardArray.map((site) => {
     return (
-      <div className='grid place-items-center relative'>
+      <div className='grid place-items-center relative' key={counter()}>
         <div className='cardCode'>
           <a
             href={site.deployed}

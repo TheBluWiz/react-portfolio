@@ -28,7 +28,7 @@ export default function Contact() {
     console.log(e)
     let inputData = e.target.value;
 
-    if(!inputData) {
+    if (!inputData) {
       switch (e.target.name) {
         case "name":
           setErrorMessage(`Name is required`);
@@ -49,7 +49,7 @@ export default function Contact() {
     }
 
     setErrorMessage(null)
-  }  
+  }
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -65,8 +65,8 @@ export default function Contact() {
   };
 
   return (
-    <div class="grid place-items-center">
-      <div className="bg-orange-100 w-4/5 mt-10 pt-3 pb-3 border-2 border-neutral-400">
+    <div className="grid place-items-center ">
+      <div className="bg-orange-100 w-4/5 mt-10 pt-3 pb-3 max-w-md border-2 border-neutral-400">
         <h2 className="text-2xl font-medium text-teal-600 text-center ">Contact Me</h2>
         <form id="contactMe" className="w-4/5 mx-auto grid gap-2 mt-3">
           <input

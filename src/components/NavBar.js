@@ -3,7 +3,7 @@
 export default function NavBar({ currentPage, handlePageChange }) {
   return (
     <div className="bg-emerald-700 text-center">
-      <div className="grid gap-1 grid-cols-4 mx-0 ">
+      <div className="grid gap-1 grid-cols-4 mx-0 md:grid-cols-6">
         <a
           href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}

@@ -2,8 +2,8 @@ import profilePic from "../assets/images/profilePic.jpeg";
 
 export default function AboutMe() {
   return (
-    <>
-      <div className="float-left mr-3 bg-slate-200 rounded-b-3xl border-2 border-r-neutral-400 border-b-neutral-400 ml-5">
+    <div className="max-w-3xl">
+      <div className="float-left mr-3 mt-5 bg-slate-200 rounded-b-3xl border-2 border-r-neutral-400 border-b-neutral-400 ml-5">
         <img src={profilePic} alt="Jamey Wicklund" className="max-h-32 rounded-full pl-6 mt-3 mr-3" />
         <h2 className="text-2xl font-medium text-teal-600 pl-5 mx-3">About Me</h2>
       </div>
@@ -18,6 +18,6 @@ export default function AboutMe() {
           is <span class="about-me">“What can we accomplish together today?"</span>. If you have a project you want to
           build or problem you need to solve I'd love to get involved. Community means everything. Lets connect!</p>
       </div>
-    </>
+      </div>
   );
 }

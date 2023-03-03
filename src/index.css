@@ -43,7 +43,7 @@ code {
     transition-duration: 500ms;
   }
   .cardCode:hover {
-    z-index: 50;
+    z-index: 30;
   }
   .cardCode:hover+.cardImage {
     opacity: 0.3;

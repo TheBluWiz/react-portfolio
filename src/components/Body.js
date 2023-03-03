@@ -22,7 +22,7 @@ export default function Body({ currentPage }) {
   };
 
   return (
-    <main>
+    <main className="grid place-items-center">
         {renderPage()}
     </main>
 
