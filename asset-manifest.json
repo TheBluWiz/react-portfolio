@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.dffd7189.css",
+    "main.js": "/react-portfolio/static/js/main.b26eb533.js",
+    "static/media/mail-me-seeds.png": "/react-portfolio/static/media/mail-me-seeds.d5a8e1faea69434d0587.png",
+    "static/media/tech-spot-blot.png": "/react-portfolio/static/media/tech-spot-blot.9f6adcbb8407df629d03.png",
+    "static/media/team-profile-generator.png": "/react-portfolio/static/media/team-profile-generator.f6f4c71b8261fead60eb.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.8367062617194e82e8a2.png",
+    "static/media/giphtionary.png": "/react-portfolio/static/media/giphtionary.00b257172009c03a7c1c.png",
+    "static/media/dev-quiz.png": "/react-portfolio/static/media/dev-quiz.ccbbb8a95e4b9fee5fc9.png",
+    "static/media/theBluWiz-logo.png": "/react-portfolio/static/media/theBluWiz-logo.8525ce7133dbd46e9313.png",
+    "static/media/profilePic.jpeg": "/react-portfolio/static/media/profilePic.68b348f56cb0ab9383bb.jpeg",
+    "static/media/Resume-JameyWicklund.pdf": "/react-portfolio/static/media/Resume-JameyWicklund.83b584cf93c699ffb4b5.pdf",
+    "static/media/stack-overflow-logo.png": "/react-portfolio/static/media/stack-overflow-logo.e2c42001135addbad748.png",
+    "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.a95afc06831647f5fca2.png",
+    "static/media/github-long-logo.png": "/react-portfolio/static/media/github-long-logo.746ec8f0bc97208f903e.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.dffd7189.css.map": "/react-portfolio/static/css/main.dffd7189.css.map",
+    "main.b26eb533.js.map": "/react-portfolio/static/js/main.b26eb533.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dffd7189.css",
+    "static/js/main.b26eb533.js"
+  ]
+}
