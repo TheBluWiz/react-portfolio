@@ -2,12 +2,12 @@ import resume from '../assets/Resume-JameyWicklund.pdf'
 
 export default function Resume() {
   return (
-    <div className='w-4/5 m-auto mt-8 bg-orange-100 border-2 border-neutral-400'>
-      <div className='w-11/12 m-auto'>
+    <div className='w-4/5 m-auto mt-8 max-w-lg bg-orange-100 border-2 border-neutral-400'>
         <a href={resume} download='Resume-Jamey-Wicklund'>
-          Download Resume
+          <h3 className='title mt-5 ml-5 sm:ml-32'>Download Resume</h3>
         </a>
-        <div>
+        <div className='w-11/12 m-5 sm:grid sm:grid-cols-2 sm:place-items-center sm:gap-5'>
+        <div className='my-3'>
           <h2>Front-End Proficiencies</h2>
           <ul className='list-disc list-inside'>
             <li>HTML</li>
