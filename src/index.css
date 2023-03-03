@@ -17,9 +17,5 @@ code {
 @tailwind utilities;
 
 @layer components {
-  .title {
-    font-size: 32px;
-    font-family: 'Neucha', cursive;
-    padding: 16px 16px;
-  }
+
 }

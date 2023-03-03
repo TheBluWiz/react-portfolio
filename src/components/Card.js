@@ -3,9 +3,9 @@ import gitHubLogo from '../assets/images/github-logo.png';
 export default function Card({cardArray}) {
   return cardArray.map((site) => {
     return (
-      <div className='card '>
-        <img src={site.image} alt={site.alt} className='' />
-        <div className='grid gap-1 grid-cols-2 mx-0 w-3/4 '>
+      <div className='grid place-items-center relative'>
+        <img src={site.image} alt={site.alt} className='z-20 hover:opacity-30 hover:z-0 ease-out duration-300' />
+        <div className='grid gap-1 grid-cols-2 mx-0 w-3/4 place-items-center absolute z-10 hover:z-40'>
           <a
             href={site.deployed}
             target="_blank"
