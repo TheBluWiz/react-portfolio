@@ -7,7 +7,7 @@ export default function AboutMe() {
         <img src={profilePic} alt="Jamey Wicklund" className="max-h-32 rounded-full pl-6 mt-3 mr-3" />
         <h2 className="text-2xl font-medium text-teal-600 pl-5 mx-3">About Me</h2>
       </div>
-      <div className="mt-5 mx-7 bg-orange-100 border-2 border-neutral-400">
+      <div className="mt-5 mx-7 mb-5 h-full bg-orange-100 border-2 border-neutral-400">
         <p className="p-5">Always curious, my time away from keyboard is spent reading science focused news articles, going on long
           walks
           with my husband and dog, or imagining what another world could be like with my DND group.<br /><br />
