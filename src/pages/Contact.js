@@ -42,26 +42,17 @@ export default function Contact() {
       }
       return
     }
-    setErrorMessage(null)
-  }  
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    if (name === '') {
-      setErrorMessage('Name is required')
-      return
-    }
 
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
     }
 
-    if (message === '') {
-      setErrorMessage('Please include a message')
-      return
-    }
+    setErrorMessage(null)
+  }  
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
 
     setMessageSent('Message Sent')
     setName('');
