@@ -11,26 +11,13 @@ import techSpotBlot from '../assets/images/tech-spot-blot.png';
 
 export default function Contact() {
   const cardArray = [
-    {
-      title: "Coding Quiz",
-      image: devQuizPic,
-      alt: 'Coding Quiz Challenge',
-      gitHub: 'https://github.com/TheBluWiz/devQuiz1',
-      deployed: 'https://thebluwiz.github.io/devQuiz1/'
-    },
+
     {
       title: "Giphtionary",
       image: giphtionaryPic,
       alt: 'Where words meet giphs',
       gitHub: 'https://github.com/TheBluWiz/Giphtionary',
       deployed: 'https://thebluwiz.github.io/Giphtionary/'
-    },
-    {
-      title: "Mail-Me-Seeds!",
-      image: mailMeSeedsPic,
-      alt: 'Welcome to Mail Me Seeds!',
-      gitHub: 'https://github.com/TheBluWiz/mail-me-seeds',
-      deployed: 'https://mail-me-seeds.herokuapp.com/'
     },
     {
       title: "Note Taker",
@@ -40,11 +27,11 @@ export default function Contact() {
       deployed: 'https://note-taker-service.herokuapp.com/'
     },
     {
-      title: "Team Profile Generator",
-      image: teamProfileGenerator,
-      alt: 'A grid of employee information',
-      gitHub: 'https://github.com/TheBluWiz/team-profile-generator',
-      deployed: '/'
+      title: "Mail-Me-Seeds!",
+      image: mailMeSeedsPic,
+      alt: 'Welcome to Mail Me Seeds!',
+      gitHub: 'https://github.com/TheBluWiz/mail-me-seeds',
+      deployed: 'https://mail-me-seeds.herokuapp.com/'
     },
     {
       title: "Tech Spot Blots",
@@ -52,7 +39,22 @@ export default function Contact() {
       alt: 'Tech Spot Blots - A Blogging Site',
       gitHub: 'https://github.com/TheBluWiz/tech-spot-blot',
       deployed: 'https://tech-spot-blot.herokuapp.com'
-    }
+    },
+    {
+      title: "Coding Quiz",
+      image: devQuizPic,
+      alt: 'Coding Quiz Challenge',
+      gitHub: 'https://github.com/TheBluWiz/devQuiz1',
+      deployed: 'https://thebluwiz.github.io/devQuiz1/'
+    },
+    {
+      title: "Team Profile Generator",
+      image: teamProfileGenerator,
+      alt: 'A grid of employee information',
+      gitHub: 'https://github.com/TheBluWiz/team-profile-generator',
+      deployed: '/'
+    },
+
   ]
 
   return (

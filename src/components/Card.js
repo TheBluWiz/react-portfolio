@@ -9,7 +9,7 @@ export default function Card({ cardArray }) {
   return cardArray.map((site) => {
     return (
       <div className='grid place-items-center relative' key={counter()}>
-        <div className='cardCode'>
+        <div className='cardCode grid gap-x-5'>
           <a
             href={site.deployed}
             target="_blank"
