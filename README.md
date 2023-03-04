@@ -3,7 +3,7 @@
   ## Description
   This portfolio is my first React project. I intend to keep it updated as I build out new projects and expand my skill set and resume.
   ## Contact Me
-  The contact form should be up and running shortly and will send me your messages directly. I'd love to here about any projects you'd like help with and am also open to reccomendations on how to improve my code. I'll get back to you ASAP!
+  The contact form should be up and running shortly and will send me your messages directly. I'd love to hear about any projects you'd like help with and am also open to reccomendations on how to improve my code. I'll get back to you ASAP!
   ## Deployed Site
   You can check out my custom made portfolio [here](https://thebluwiz.github.io/react-portfolio/)!
   <a href= "https://thebluwiz.github.io/react-portfolio/">
