@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className='bg-slate-200 min-h-screen'>
+    <div className='bg-slate-200 min-h-screen max-w max-w-6xl mx-auto'>
     <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <Body currentPage={currentPage} />
     <Footer />
