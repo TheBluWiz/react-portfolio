@@ -25,7 +25,6 @@ export default function Contact() {
   };
 
   const onBlur = (e) => {
-    console.log(e)
     let inputData = e.target.value;
 
     if (!inputData) {
